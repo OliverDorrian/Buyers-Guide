@@ -32,11 +32,9 @@ body, html {
 }
 
 #left-right {
-  width: calc(100% - 30px);
+  width: 100%;
   margin-left: auto;
-  margin-right: auto;
   height: fit-content;
-  padding-bottom: 30px;
 
   display: flex;
   flex-direction: row;
@@ -45,6 +43,7 @@ body, html {
 #side-bar {
   width: 200px;
   margin-right: 10px;
+  margin-left: 10px;
   padding: 10px;
   margin-top: 2em;
   border-radius: 30px;
@@ -80,31 +79,43 @@ body, html {
 }
 
 #content-1 {
+  min-height: 100vh;
+  padding-bottom: 30px;
   height: fit-content;
   padding-right: 20px;
   padding-left: 20px;
+  background-color: #1E4857;
 }
 
 #content-1 h1 {
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-size: 3em;
   text-align: center;
+  color: #D6A53F;
 }
 
 #content-1 p {
   margin-top: unset;
   text-align: justify;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  color: white;
 }
 
 .first-img {
   float: left;
   margin-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   width: 400px;
   height: 600px;
   border-radius: 30px;
   background-size: cover;
+}
+
+
+/* Inital Value */
+#content-2, #content-3, #content-4, #content-5 {
+  position: absolute;
+  display: none;
 }
