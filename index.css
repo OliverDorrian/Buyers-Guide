@@ -1,0 +1,110 @@
+@import url('http://fonts.cdnfonts.com/css/gt-walsheim');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'GT Walsheim', sans-serif;
+  background-color: #FAF9F9;
+}
+
+#title-banner {
+  width: 100%;
+  height: fit-content;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/09/little-Cay.png");
+  background-size: cover;
+  color: white;
+}
+
+#title-banner h1 {
+  padding-top: 100px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+}
+
+#title-banner p {
+  font-size: 2em;
+  padding-bottom: 100px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#left-right {
+  width: calc(100% - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  padding-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#side-bar {
+  width: 200px;
+  margin-right: 10px;
+  padding: 10px;
+  margin-top: 2em;
+  border-radius: 30px;
+  height: fit-content;
+}
+
+#nav-list {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-title h1 {
+  margin: unset;
+}
+
+#nav-list a {
+  text-decoration: unset;
+}
+
+#nav-list p {
+  color: #53778C;
+  text-decoration: unset;
+  text-align: left;
+  margin-bottom: 0.6em;
+  border-bottom: 1px solid #aaa;
+  padding: 0.5em 0 0.17em 0;
+}
+
+#content {
+  display: block;
+  height: fit-content;
+}
+
+#content-1 {
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#content-1 h1 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 3em;
+  text-align: center;
+}
+
+#content-1 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.first-img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 600px;
+  border-radius: 30px;
+  background-size: cover;
+}
