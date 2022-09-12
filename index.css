@@ -65,7 +65,7 @@ body, html {
 }
 
 #nav-list p {
-  color: #53778C;
+  color: black;
   text-decoration: unset;
   text-align: left;
   margin-bottom: 0.6em;
@@ -74,12 +74,13 @@ body, html {
 }
 
 #content {
-  display: block;
-  height: fit-content;
+  position: relative;
+  display: inherit;
 }
 
 #content-1 {
-  min-height: 100vh;
+  
+  overflow: hidden; 
   padding-bottom: 30px;
   height: fit-content;
   padding-right: 20px;
@@ -87,6 +88,7 @@ body, html {
   background-color: #1E4857;
 }
 
+/* Content 1 stylings*/
 #content-1 h1 {
   margin: 0;
   padding-top: 40px;
@@ -107,15 +109,105 @@ body, html {
   float: left;
   margin-right: 10px;
   margin-bottom: 40px;
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 500px;
   border-radius: 30px;
   background-size: cover;
 }
 
+.img-left-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
 
 /* Inital Value */
-#content-2, #content-3, #content-4, #content-5 {
+#content-2, #content-3, #content-4, #content-5, #content-6, #content-7, #content-8, #content-9, #content-10 {
   position: absolute;
   display: none;
+}
+
+
+/* Content-2 Styling */
+
+#content-2 {
+  min-height: 100vh;
+  background-color: #001220;
+}
+
+#content-2 h1 {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 3em;
+  text-align: center;
+  color: #D6A53F;
+}
+
+#content-2 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.4em;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #side-bar h1 {
+    text-align: center;
+  }
+
+  #left-right {
+    flex-direction: column;
+  }
+
+  #side-bar {
+    width: unset;
+  }
+
+  #nav-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #nav-list p {
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0.2em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .img-left-right {
+    flex-direction: column;
+  }
+
+  .first-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+
+  .img-left-div {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .first-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 10px);
+  }
 }
