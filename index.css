@@ -75,17 +75,25 @@ body, html {
 
 #content {
   position: relative;
-  display: inherit;
+  display: block;
+  max-width: unset !important;
+  width: calc(100% - 220px);
 }
 
 #content-1 {
-  
-  overflow: hidden; 
+  max-width: unset !important;
+  overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #1E4857;
+  background-color: #06212C;
+}
+
+#content-1-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Content 1 stylings*/
@@ -139,6 +147,12 @@ body, html {
 #content-2 {
   min-height: 100vh;
   background-color: #001220;
+  max-width: unset !important;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 #content-2 h1 {
@@ -155,6 +169,13 @@ body, html {
   text-align: justify;
   font-size: 1.4em;
   color: white;
+}
+
+.img-left-right {
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 1000px) {
