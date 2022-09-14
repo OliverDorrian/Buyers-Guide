@@ -96,7 +96,7 @@ body, html {
   margin-right: auto;
 }
 
-/* Content 1 stylings*/
+/* Content 1 styling*/
 #content-1 h1 {
   margin: 0;
   padding-top: 40px;
@@ -135,12 +135,11 @@ body, html {
   justify-content: space-around
 }
 
-/* Inital Value */
+/* Initial Value */
 #content-2, #content-3, #content-4, #content-5, #content-6, #content-7, #content-8, #content-9, #content-10 {
   position: absolute;
   display: none;
 }
-
 
 /* Content-2 Styling */
 
