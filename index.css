@@ -144,7 +144,7 @@ body, html {
 /* Content-2 Styling */
 
 #content-2 {
-  min-height: 100vh;
+  min-height: 80vh;
   background-color: #001220;
   max-width: unset !important;
   overflow: hidden;
@@ -177,6 +177,207 @@ body, html {
   margin-right: auto;
 }
 
+/* Content 3 Styling */
+
+#content-3 {
+  min-height: 80vh;
+  background-color: #0C2F38;
+  max-width: unset !important;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#content-3-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-3-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: #D6A53F;
+}
+
+/* Content 4 Styling  */
+#content-4 {
+  min-height: 80vh;
+  background-color: #f3f3f3;
+  max-width: unset !important;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#content-4-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-4-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: black;
+}
+
+/* Content 5 Styling */
+#content-5 {
+  min-height: 80vh;
+  background-color: white;
+  max-width: unset !important;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#content-5-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-5-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: black;
+}
+
+/* Content 6 Styling */
+#content-6 {
+  min-height: 80vh;
+  background-color: #06212C;
+  max-width: unset !important;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#content-6-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-6-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: #D6A53F;
+}
+
+/* Content 7 Styling */
+#content-7 {
+  min-height: 80vh;
+  background-color: white;
+  max-width: unset !important;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#content-7-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-7-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: black;
+}
+
+/* Content 8 Styling */
+#content-8 {
+  min-height: 80vh;
+  background-color: #0C2F38;
+  max-width: unset !important;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#content-8-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-8-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: #D6A53F;
+}
+
+/* Content 9 Styling */
+#content-9 {
+  min-height: 80vh;
+  background-color: #06212C;
+  max-width: unset !important;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#content-9-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-9-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: #D6A53F;
+}
+/* Content 10 Styling */
+#content-10 {
+  min-height: 80vh;
+  background-color: white;
+  max-width: unset !important;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+#content-10-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-10-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: #001220;
+}
+
 @media only screen and (max-width: 1000px) {
 
   #side-bar h1 {
@@ -195,6 +396,7 @@ body, html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-end;
   }
 
   #nav-list p {
@@ -204,9 +406,16 @@ body, html {
     margin-bottom: 0.2em;
     text-align: center;
   }
+
+  #content {
+    width: unset;
+  }
 }
 
 @media only screen and (max-width: 750px) {
+
+
+
   .img-left-right {
     flex-direction: column;
   }
@@ -223,6 +432,17 @@ body, html {
     margin-right: auto;
   }
 }
+
+@media only screen and (max-width: 540px) {
+  #title-banner {
+    display: none;
+  }
+
+  #side-bar {
+    margin-top: unset;
+  }
+}
+
 
 @media only screen and (max-width: 450px) {
   .first-img {
