@@ -7,6 +7,19 @@ body, html {
   background-color: #FAF9F9;
 }
 
+.flex-title {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-title-new h1{
+  margin: 0;
+  line-height: 1.2;
+}
+
 #title-banner {
   width: 100%;
   height: fit-content;
