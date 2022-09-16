@@ -7,7 +7,7 @@ body, html {
   background-color: #FAF9F9;
 }
 
-.flex-title {
+.page-id-9853 .flex-title {
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -15,12 +15,12 @@ body, html {
   margin-right: auto;
 }
 
-.flex-title-new h1{
+.page-id-9853 .flex-title-new h1{
   margin: 0;
   line-height: 1.2;
 }
 
-#title-banner {
+.page-id-9853 #title-banner {
   width: 100%;
   height: fit-content;
   background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/09/little-Cay.png");
@@ -28,7 +28,7 @@ body, html {
   color: white;
 }
 
-#title-banner h1 {
+.page-id-9853 #title-banner h1 {
   padding-top: 100px;
   margin: 0;
   width: 100%;
@@ -36,7 +36,7 @@ body, html {
   font-size: 4em;
 }
 
-#title-banner p {
+.page-id-9853 #title-banner p {
   font-size: 2em;
   padding-bottom: 100px;
   margin: 0;
@@ -44,7 +44,7 @@ body, html {
   text-align: center;
 }
 
-#left-right {
+.page-id-9853 #left-right {
   width: 100%;
   margin-left: auto;
   height: fit-content;
@@ -53,7 +53,7 @@ body, html {
   flex-direction: row;
 }
 
-#side-bar {
+.page-id-9853 #side-bar {
   width: 200px;
   margin-right: 10px;
   margin-left: 10px;
@@ -63,21 +63,21 @@ body, html {
   height: fit-content;
 }
 
-#nav-list {
+.page-id-9853 #nav-list {
   width: inherit;
   display: flex;
   flex-direction: column;
 }
 
-#nav-title h1 {
+.page-id-9853 #nav-title h1 {
   margin: unset;
 }
 
-#nav-list a {
+.page-id-9853 #nav-list a {
   text-decoration: unset;
 }
 
-#nav-list p {
+.page-id-9853 #nav-list p {
   color: black;
   text-decoration: unset;
   text-align: left;
@@ -86,14 +86,14 @@ body, html {
   padding: 0.5em 0 0.17em 0;
 }
 
-#content {
+.page-id-9853 #content {
   position: relative;
   display: block;
   max-width: unset !important;
   width: calc(100% - 220px);
 }
 
-#content-1 {
+.page-id-9853 #content-1 {
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
@@ -103,14 +103,14 @@ body, html {
   background-color: #06212C;
 }
 
-#content-1-inner {
+.page-id-9853 #content-1-inner {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* Content 1 styling*/
-#content-1 h1 {
+.page-id-9853 #content-1 h1 {
   margin: 0;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -119,14 +119,14 @@ body, html {
   color: #D6A53F;
 }
 
-#content-1 p {
+.page-id-9853 #content-1 p {
   margin-top: unset;
   text-align: justify;
   font-size: 1.4em;
   color: white;
 }
 
-.first-img {
+.page-id-9853 .first-img {
   float: left;
   margin-right: 10px;
   margin-bottom: 40px;
@@ -136,27 +136,27 @@ body, html {
   background-size: cover;
 }
 
-.img-left-right {
+.page-id-9853 .img-left-right {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.right-div {
+.page-id-9853 .right-div {
   display: flex;
   flex-direction: column;
   justify-content: space-around
 }
 
 /* Initial Value */
-#content-2, #content-3, #content-4, #content-5, #content-6, #content-7, #content-8, #content-9, #content-10 {
+.page-id-9853 #content-2, .page-id-9853 #content-3, .page-id-9853 #content-4, .page-id-9853 #content-5,.page-id-9853 #content-6, .page-id-9853 #content-7, .page-id-9853 #content-8, .page-id-9853 #content-9, .page-id-9853 #content-10 {
   position: absolute;
   display: none;
 }
 
 /* Content-2 Styling */
 
-#content-2 {
+.page-id-9853 #content-2 {
   min-height: 80vh;
   background-color: #001220;
   max-width: unset !important;
@@ -167,7 +167,7 @@ body, html {
   padding-left: 20px;
 }
 
-#content-2 h1 {
+.page-id-9853 #content-2 h1 {
   margin: 0;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -176,14 +176,14 @@ body, html {
   color: #D6A53F;
 }
 
-#content-2 p {
+.page-id-9853 #content-2 p {
   margin-top: unset;
   text-align: justify;
   font-size: 1.4em;
   color: white;
 }
 
-.img-left-right {
+.page-id-9853 .img-left-right {
   max-width: 1440px;
   width: 100%;
   margin-left: auto;
@@ -191,8 +191,7 @@ body, html {
 }
 
 /* Content 3 Styling */
-
-#content-3 {
+.page-id-9853 #content-3 {
   min-height: 80vh;
   background-color: #0C2F38;
   max-width: unset !important;
@@ -203,13 +202,13 @@ body, html {
   padding-left: 20px;
 }
 
-#content-3-inner {
+.page-id-9853 #content-3-inner {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#content-3-title {
+.page-id-9853 #content-3-title {
   width: 100%;
   text-align: center;
   font-size: 3em;
@@ -217,7 +216,7 @@ body, html {
 }
 
 /* Content 4 Styling  */
-#content-4 {
+.page-id-9853 #content-4 {
   min-height: 80vh;
   background-color: #f3f3f3;
   max-width: unset !important;
@@ -228,13 +227,13 @@ body, html {
   padding-left: 20px;
 }
 
-#content-4-inner {
+.page-id-9853 #content-4-inner {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#content-4-title {
+.page-id-9853 #content-4-title {
   width: 100%;
   text-align: center;
   font-size: 3em;
@@ -242,7 +241,7 @@ body, html {
 }
 
 /* Content 5 Styling */
-#content-5 {
+.page-id-9853 #content-5 {
   min-height: 80vh;
   background-color: white;
   max-width: unset !important;
@@ -253,13 +252,13 @@ body, html {
   padding-left: 20px;
 }
 
-#content-5-inner {
+.page-id-9853 #content-5-inner {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#content-5-title {
+.page-id-9853 #content-5-title {
   width: 100%;
   text-align: center;
   font-size: 3em;
@@ -267,7 +266,7 @@ body, html {
 }
 
 /* Content 6 Styling */
-#content-6 {
+.page-id-9853 #content-6 {
   min-height: 80vh;
   background-color: #06212C;
   max-width: unset !important;
@@ -278,13 +277,13 @@ body, html {
   padding-left: 20px;
 }
 
-#content-6-inner {
+.page-id-9853 #content-6-inner {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#content-6-title {
+.page-id-9853 #content-6-title {
   width: 100%;
   text-align: center;
   font-size: 3em;
@@ -292,7 +291,7 @@ body, html {
 }
 
 /* Content 7 Styling */
-#content-7 {
+.page-id-9853 #content-7 {
   min-height: 80vh;
   background-color: white;
   max-width: unset !important;
@@ -303,13 +302,13 @@ body, html {
   padding-left: 20px;
 }
 
-#content-7-inner {
+.page-id-9853 #content-7-inner {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#content-7-title {
+.page-id-9853 #content-7-title {
   width: 100%;
   text-align: center;
   font-size: 3em;
@@ -317,7 +316,7 @@ body, html {
 }
 
 /* Content 8 Styling */
-#content-8 {
+.page-id-9853 #content-8 {
   min-height: 80vh;
   background-color: #0C2F38;
   max-width: unset !important;
@@ -328,13 +327,13 @@ body, html {
   padding-left: 20px;
 }
 
-#content-8-inner {
+.page-id-9853 #content-8-inner {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#content-8-title {
+.page-id-9853 #content-8-title {
   width: 100%;
   text-align: center;
   font-size: 3em;
@@ -342,7 +341,7 @@ body, html {
 }
 
 /* Content 9 Styling */
-#content-9 {
+.page-id-9853 #content-9 {
   min-height: 80vh;
   background-color: #06212C;
   max-width: unset !important;
@@ -353,20 +352,20 @@ body, html {
   padding-left: 20px;
 }
 
-#content-9-inner {
+.page-id-9853 #content-9-inner {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#content-9-title {
+.page-id-9853 #content-9-title {
   width: 100%;
   text-align: center;
   font-size: 3em;
   color: #D6A53F;
 }
 /* Content 10 Styling */
-#content-10 {
+.page-id-9853 #content-10 {
   min-height: 80vh;
   background-color: white;
   max-width: unset !important;
@@ -378,13 +377,13 @@ body, html {
   width: 100%;
 }
 
-#content-10-inner {
+.page-id-9853 #content-10-inner {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#content-10-title {
+.page-id-9853 #content-10-title {
   width: 100%;
   text-align: center;
   font-size: 3em;
@@ -393,26 +392,26 @@ body, html {
 
 @media only screen and (max-width: 1000px) {
 
-  #side-bar h1 {
+  .page-id-9853 #side-bar h1 {
     text-align: center;
   }
 
-  #left-right {
+  .page-id-9853 #left-right {
     flex-direction: column;
   }
 
-  #side-bar {
+  .page-id-9853 #side-bar {
     width: unset;
   }
 
-  #nav-list {
+  .page-id-9853 #nav-list {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
   }
 
-  #nav-list p {
+  .page-id-9853 #nav-list p {
     width: 150px;
     margin-left: 20px;
     margin-right: 20px;
@@ -420,26 +419,24 @@ body, html {
     text-align: center;
   }
 
-  #content {
+  .page-id-9853 #content {
     width: unset;
   }
 }
 
 @media only screen and (max-width: 750px) {
 
-
-
-  .img-left-right {
+  .page-id-9853 .img-left-right {
     flex-direction: column;
   }
 
-  .first-img {
+  .page-id-9853 .first-img {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
   }
 
-  .img-left-div {
+  .page-id-9853 .img-left-div {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -447,18 +444,18 @@ body, html {
 }
 
 @media only screen and (max-width: 540px) {
-  #title-banner {
+  .page-id-9853 #title-banner {
     display: none;
   }
 
-  #side-bar {
+  .page-id-9853 #side-bar {
     margin-top: unset;
   }
 }
 
 
 @media only screen and (max-width: 450px) {
-  .first-img {
+  .page-id-9853 .first-img {
     margin-left: auto;
     margin-right: auto;
     width: calc(100% - 10px);
