@@ -29,7 +29,7 @@ body, html {
 .page-id-9853 #title-banner {
   width: 100%;
   height: fit-content;
-  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/09/little-Cay.png");
+  background-image: url("https://svgshare.com/i/mRd.svg");
   background-size: cover;
   color: white;
 }
@@ -99,13 +99,11 @@ body, html {
 }
 
 .page-id-9853 #content-1 {
-  min-height: 80vh;
+  min-height: 100vh;
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
-  padding-right: 20px;
-  padding-left: 20px;
   background-color: #06212C;
 }
 
@@ -115,14 +113,14 @@ body, html {
   margin-right: auto;
 }
 
-/* Content 1 styling*/
+/* Content 1 styling */
 .page-id-9853 #content-1 h1 {
   margin: 0;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 3em;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  color: #D6A53F;
+  color: white;
 }
 
 .page-id-9853 #content-1 p {
@@ -132,28 +130,53 @@ body, html {
   color: white;
 }
 
-.page-id-9853 .first-img {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 40px;
-  width: 300px;
-  height: 500px;
-  border-radius: 30px;
+#content-1-img-top {
+  width: 100%;
+  height: fit-content;
   background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/09/head.png");
 }
 
-.page-id-9853 .img-left-right {
+#content-1-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+#content-1-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
   display: flex;
   flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+#content-1-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.author-text {
+  color: black;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.page-id-9853 .right-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around
+.author-text p {
+  line-height: 1.5;
+  margin: 0;
+  color: black !important;
 }
-
 /* Initial Value */
 .page-id-9853 #content-2, .page-id-9853 #content-3, .page-id-9853 #content-4, .page-id-9853 #content-5,.page-id-9853 #content-6, .page-id-9853 #content-7, .page-id-9853 #content-8, .page-id-9853 #content-9, .page-id-9853 #content-10 {
   position: absolute;
@@ -163,23 +186,56 @@ body, html {
 /* Content-2 Styling */
 
 .page-id-9853 #content-2 {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: #001220;
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .page-id-9853 #content-2 h1 {
   margin: 0;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 3em;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  color: #D6A53F;
+  color: white;
+}
+
+#content-2-img-top {
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/09/little-Cay.png");
+}
+
+#content-2-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+#content-2-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+#content-2-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
 }
 
 .page-id-9853 #content-2 p {
@@ -198,14 +254,12 @@ body, html {
 
 /* Content 3 Styling */
 .page-id-9853 #content-3 {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: #0C2F38;
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .page-id-9853 #content-3-inner {
@@ -214,23 +268,65 @@ body, html {
   margin-right: auto;
 }
 
-.page-id-9853 #content-3-title {
-  width: 100%;
+.page-id-9853 #content-3 h1 {
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  font-size: 3em;
-  color: #D6A53F;
+  color: #000000;
+}
+
+#content-3-img-top {
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/08/grand-land-new.png");
+}
+
+#content-3-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+#content-3-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+#content-3-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.page-id-9853 #content-3 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.4em;
+  color: white;
 }
 
 /* Content 4 Styling  */
 .page-id-9853 #content-4 {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: #f3f3f3;
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .page-id-9853 #content-4-inner {
@@ -239,23 +335,65 @@ body, html {
   margin-right: auto;
 }
 
-.page-id-9853 #content-4-title {
-  width: 100%;
+.page-id-9853 #content-4 h1 {
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  font-size: 3em;
-  color: black;
+  color: white;
+}
+
+.page-id-9853 #content-4-img-top {
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/07/dd1e87f8-8ef1-11e3-9cb0-00144feab7de.jpeg");
+}
+
+.page-id-9853 #content-4-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.page-id-9853 #content-4-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-id-9853 #content-4-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.page-id-9853 #content-4 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.4em;
+  color: white;
 }
 
 /* Content 5 Styling */
 .page-id-9853 #content-5 {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: white;
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .page-id-9853 #content-5-inner {
@@ -264,23 +402,65 @@ body, html {
   margin-right: auto;
 }
 
-.page-id-9853 #content-5-title {
-  width: 100%;
+.page-id-9853 #content-5 h1 {
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  font-size: 3em;
-  color: black;
+  color: white;
+}
+
+.page-id-9853 #content-5-img-top {
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/07/why-cayman-2.png");
+}
+
+.page-id-9853 #content-5-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.page-id-9853 #content-5-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-id-9853 #content-5-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.page-id-9853 #content-5 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.4em;
+  color: white;
 }
 
 /* Content 6 Styling */
 .page-id-9853 #content-6 {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: #06212C;
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .page-id-9853 #content-6-inner {
@@ -289,23 +469,65 @@ body, html {
   margin-right: auto;
 }
 
-.page-id-9853 #content-6-title {
-  width: 100%;
+.page-id-9853 #content-6 h1 {
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  font-size: 3em;
-  color: #D6A53F;
+  color: white;
+}
+
+.page-id-9853 #content-6-img-top {
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/06/ronny-rondon-4cA8rMU7Ci4-unsplash-scaled.jpg");
+}
+
+.page-id-9853 #content-6-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.page-id-9853 #content-6-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-id-9853 #content-6-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.page-id-9853 #content-6 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.4em;
+  color: white;
 }
 
 /* Content 7 Styling */
 .page-id-9853 #content-7 {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: white;
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .page-id-9853 #content-7-inner {
@@ -314,23 +536,65 @@ body, html {
   margin-right: auto;
 }
 
-.page-id-9853 #content-7-title {
-  width: 100%;
+.page-id-9853 #content-7 h1 {
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  font-size: 3em;
-  color: black;
+  color: white;
+}
+
+.page-id-9853 #content-7-img-top {
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/06/amor-ISjDiRMF990-unsplash-scaled.jpg");
+}
+
+.page-id-9853 #content-7-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.page-id-9853 #content-7-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-id-9853 #content-7-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.page-id-9853 #content-7 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.4em;
+  color: white;
 }
 
 /* Content 8 Styling */
 .page-id-9853 #content-8 {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: #0C2F38;
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .page-id-9853 #content-8-inner {
@@ -339,23 +603,65 @@ body, html {
   margin-right: auto;
 }
 
-.page-id-9853 #content-8-title {
-  width: 100%;
+.page-id-9853 #content-8 h1 {
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  font-size: 3em;
-  color: #D6A53F;
+  color: white;
+}
+
+.page-id-9853 #content-8-img-top {
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/07/alek-newton-vBKQ6yGGRu8-unsplash.jpg");
+}
+
+.page-id-9853 #content-8-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.page-id-9853 #content-8-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-id-9853 #content-8-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.page-id-9853 #content-8 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.4em;
+  color: white;
 }
 
 /* Content 9 Styling */
 .page-id-9853 #content-9 {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: #06212C;
   max-width: unset !important;
   overflow: hidden;
   padding-bottom: 30px;
   height: fit-content;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .page-id-9853 #content-9-inner {
@@ -364,15 +670,60 @@ body, html {
   margin-right: auto;
 }
 
-.page-id-9853 #content-9-title {
-  width: 100%;
+.page-id-9853 #content-9 h1 {
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  font-size: 3em;
-  color: #D6A53F;
+  color: white;
 }
+
+.page-id-9853 #content-9-img-top {
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/06/oasis-land-development-cayman-islands-intro-background-1.jpg");
+}
+
+.page-id-9853 #content-9-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.page-id-9853 #content-9-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-id-9853 #content-9-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.page-id-9853 #content-9 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.4em;
+  color: white;
+}
+
 /* Content 10 Styling */
 .page-id-9853 #content-10 {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: white;
   max-width: unset !important;
   overflow: hidden;
@@ -389,11 +740,55 @@ body, html {
   margin-right: auto;
 }
 
-.page-id-9853 #content-10-title {
-  width: 100%;
+.page-id-9853 #content-10 h1 {
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 4em;
   text-align: center;
-  font-size: 3em;
-  color: #001220;
+  color: white;
+}
+
+.page-id-9853 #content-10-img-top {
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/07/yuya-hata-1OppflAoX5M-unsplash-1.jpg");
+}
+
+.page-id-9853 #content-10-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.page-id-9853 #content-10-author {
+  padding: 10px 30px;
+  margin-bottom: -50px;
+  border-radius: 115px;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-id-9853 #content-10-author-img {
+  height: 100%;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.page-id-9853 #content-10 p {
+  margin-top: unset;
+  text-align: justify;
+  font-size: 1.4em;
+  color: white;
 }
 
 @media only screen and (max-width: 1400px) {
