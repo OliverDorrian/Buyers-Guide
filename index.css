@@ -1,4 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/gt-walsheim');
+@import url('http://fonts.cdnfonts.com/css/tiempos-headline');
 
 body, html {
   margin: 0;
@@ -6,6 +7,7 @@ body, html {
   font-family: 'GT Walsheim', sans-serif;
   background-color: #FAF9F9;
 }
+
 
 .page-id-9853 .container {
   width: unset;
@@ -108,7 +110,7 @@ body, html {
 }
 
 .page-id-9853 #content-1-inner {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -120,13 +122,6 @@ body, html {
   padding-bottom: 150px;
   font-size: 4em;
   text-align: center;
-  color: white;
-}
-
-.page-id-9853 #content-1 p {
-  margin-top: unset;
-  text-align: justify;
-  font-size: 1.4em;
   color: white;
 }
 
@@ -145,7 +140,7 @@ body, html {
 }
 
 #content-1-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -157,6 +152,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 #content-1-author-img {
@@ -218,7 +214,7 @@ body, html {
 }
 
 #content-2-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -230,6 +226,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 #content-2-author-img {
@@ -292,7 +289,7 @@ body, html {
 }
 
 #content-3-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -304,6 +301,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 #content-3-author-img {
@@ -359,7 +357,7 @@ body, html {
 }
 
 .page-id-9853 #content-4-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -371,6 +369,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-4-author-img {
@@ -426,7 +425,7 @@ body, html {
 }
 
 .page-id-9853 #content-5-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -438,6 +437,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-5-author-img {
@@ -493,7 +493,7 @@ body, html {
 }
 
 .page-id-9853 #content-6-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -505,6 +505,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-6-author-img {
@@ -560,7 +561,7 @@ body, html {
 }
 
 .page-id-9853 #content-7-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -572,6 +573,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-7-author-img {
@@ -627,7 +629,7 @@ body, html {
 }
 
 .page-id-9853 #content-8-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -639,6 +641,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-8-author-img {
@@ -694,7 +697,7 @@ body, html {
 }
 
 .page-id-9853 #content-9-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -706,6 +709,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-9-author-img {
@@ -764,7 +768,7 @@ body, html {
 }
 
 .page-id-9853 #content-10-author {
-  padding: 10px 30px;
+  padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
   width: fit-content;
@@ -776,6 +780,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-10-author-img {
@@ -824,6 +829,35 @@ body, html {
     width: unset;
   }
 }
+
+.article-inner {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.h1-article {
+  font-size: 3em !important;
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+  text-align: left !important;
+  color: #D6A53F !important;
+  font-family: 'Tiempos Headline', sans-serif;
+  font-weight: 200;
+}
+
+.h2-article {
+  color: white;
+  font-size: 2.5em !important;
+  font-family: 'Tiempos Headline', sans-serif;
+  font-weight: 200;
+}
+
+.p-article {
+  color: white;
+  font-size: 1.3em !important;
+}
+
+
 
 @media only screen and (max-width: 1000px) {
 
