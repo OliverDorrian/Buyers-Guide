@@ -1,5 +1,5 @@
-@import url('http://fonts.cdnfonts.com/css/gt-walsheim');
-@import url('http://fonts.cdnfonts.com/css/tiempos-headline');
+@import url('https://fonts.cdnfonts.com/css/gt-walsheim');
+@import url('https://fonts.cdnfonts.com/css/tiempos-headline');
 
 body, html {
   margin: 0;
@@ -139,7 +139,7 @@ body, html {
   align-items: center;
 }
 
-#content-1-author {
+.content-author {
   padding: 7px 30px;
   margin-bottom: -50px;
   border-radius: 115px;
@@ -152,7 +152,7 @@ body, html {
   margin-right: auto;
   position: absolute;
   bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
 }
 
 #content-1-author-img {
@@ -211,22 +211,6 @@ body, html {
   flex-direction: column;
   position: relative;
   align-items: center;
-}
-
-#content-2-author {
-  padding: 7px 30px;
-  margin-bottom: -50px;
-  border-radius: 115px;
-  width: fit-content;
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 #content-2-author-img {
@@ -288,22 +272,6 @@ body, html {
   align-items: center;
 }
 
-#content-3-author {
-  padding: 7px 30px;
-  margin-bottom: -50px;
-  border-radius: 115px;
-  width: fit-content;
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
 #content-3-author-img {
   height: 100%;
   width: 90px;
@@ -354,22 +322,6 @@ body, html {
   flex-direction: column;
   position: relative;
   align-items: center;
-}
-
-.page-id-9853 #content-4-author {
-  padding: 7px 30px;
-  margin-bottom: -50px;
-  border-radius: 115px;
-  width: fit-content;
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-4-author-img {
@@ -424,22 +376,6 @@ body, html {
   align-items: center;
 }
 
-.page-id-9853 #content-5-author {
-  padding: 7px 30px;
-  margin-bottom: -50px;
-  border-radius: 115px;
-  width: fit-content;
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
 .page-id-9853 #content-5-author-img {
   height: 100%;
   width: 90px;
@@ -490,22 +426,6 @@ body, html {
   flex-direction: column;
   position: relative;
   align-items: center;
-}
-
-.page-id-9853 #content-6-author {
-  padding: 7px 30px;
-  margin-bottom: -50px;
-  border-radius: 115px;
-  width: fit-content;
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-6-author-img {
@@ -560,22 +480,6 @@ body, html {
   align-items: center;
 }
 
-.page-id-9853 #content-7-author {
-  padding: 7px 30px;
-  margin-bottom: -50px;
-  border-radius: 115px;
-  width: fit-content;
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
 .page-id-9853 #content-7-author-img {
   height: 100%;
   width: 90px;
@@ -628,22 +532,6 @@ body, html {
   align-items: center;
 }
 
-.page-id-9853 #content-8-author {
-  padding: 7px 30px;
-  margin-bottom: -50px;
-  border-radius: 115px;
-  width: fit-content;
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
 .page-id-9853 #content-8-author-img {
   height: 100%;
   width: 90px;
@@ -694,22 +582,6 @@ body, html {
   flex-direction: column;
   position: relative;
   align-items: center;
-}
-
-.page-id-9853 #content-9-author {
-  padding: 7px 30px;
-  margin-bottom: -50px;
-  border-radius: 115px;
-  width: fit-content;
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-9-author-img {
@@ -765,22 +637,6 @@ body, html {
   flex-direction: column;
   position: relative;
   align-items: center;
-}
-
-.page-id-9853 #content-10-author {
-  padding: 7px 30px;
-  margin-bottom: -50px;
-  border-radius: 115px;
-  width: fit-content;
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .page-id-9853 #content-10-author-img {
@@ -855,9 +711,8 @@ body, html {
 .p-article {
   color: white;
   font-size: 1.3em !important;
+  font-weight: 100;
 }
-
-
 
 @media only screen and (max-width: 1000px) {
 
