@@ -190,6 +190,12 @@ body, html {
   height: fit-content;
 }
 
+.page-id-9853 #content-2-inner {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .page-id-9853 #content-2 h1 {
   margin: 0;
   padding-top: 150px;
@@ -212,6 +218,7 @@ body, html {
   position: relative;
   align-items: center;
 }
+
 
 #content-2-author-img {
   height: 100%;
@@ -244,7 +251,7 @@ body, html {
 }
 
 .page-id-9853 #content-3-inner {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -296,7 +303,7 @@ body, html {
 }
 
 .page-id-9853 #content-4-inner {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -348,7 +355,7 @@ body, html {
 }
 
 .page-id-9853 #content-5-inner {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -400,7 +407,7 @@ body, html {
 }
 
 .page-id-9853 #content-6-inner {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -452,7 +459,7 @@ body, html {
 }
 
 .page-id-9853 #content-7-inner {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -504,7 +511,7 @@ body, html {
 }
 
 .page-id-9853 #content-8-inner {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -556,7 +563,7 @@ body, html {
 }
 
 .page-id-9853 #content-9-inner {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -611,7 +618,7 @@ body, html {
 }
 
 .page-id-9853 #content-10-inner {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -712,6 +719,14 @@ body, html {
   color: white;
   font-size: 1.3em !important;
   font-weight: 100;
+}
+
+.black-font {
+  color: black !important;
+}
+
+.white-font {
+  color: white !important;
 }
 
 @media only screen and (max-width: 1000px) {
