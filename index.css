@@ -731,6 +731,11 @@ body, html {
 
 @media only screen and (max-width: 1000px) {
 
+
+  .page-id-9853 #content-1-inner, .page-id-9853 #content-2-inner, .page-id-9853 #content-3-inner, .page-id-9853 #content-4-inner, .page-id-9853 #content-5-inner, .page-id-9853 #content-6-inner, .page-id-9853 #content-7-inner, .page-id-9853 #content-8-inner, .page-id-9853 #content-9-inner, .page-id-9853 #content-10-inner {
+    width: calc(100% - 40px);
+  }
+
   .page-id-9853 .img-left-right {
     flex-direction: column;
   }
@@ -764,5 +769,20 @@ body, html {
     margin-left: auto;
     margin-right: auto;
     width: calc(100% - 10px);
+  }
+
+  .content-author {
+    padding: 7px 15px;
+  }
+
+  #content-1-author-img {
+    padding-right: unset;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .content-author {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px
   }
 }
